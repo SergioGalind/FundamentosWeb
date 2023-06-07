@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tarjeta</title>
+</head>
+<style>
+
+    body{
+        background-color: #ddd;
+    }
+    .card{
+        width: 400px;
+        height: 500px;
+        margin: 50px auto;
+        background-color: beige;
+        border-radius: 20px;
+        box-shadow: 10px 10px 10px 10px grey;
+        overflow: hidden;
+        position: relative;
+    }
+    .card img {
+        width: 100%;
+    }
+    .card nav{
+        width: 95%;
+        position: absolute;
+        top: 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .card nav li{
+        display: inline-block;
+        width: 80px;
+        height: 30px;
+        text-align: center;
+    }
+    .card ul{
+        list-style: none;
+    }
+    .card nav li a{
+        display: block;
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        color: black;
+    }
+
+    .card nav li a:hover{
+        border-bottom: 3px solid black;
+    }
+
+
+
+</style>
+<body>
+    <div class="card">
+        <img src="https://images.pexels.com/photos/4652275/pexels-photo-4652275.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="cafe">
+        <nav>
+            <ul>
+                <li><a href="a">Home</a></li>
+                <li><a href="a">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
